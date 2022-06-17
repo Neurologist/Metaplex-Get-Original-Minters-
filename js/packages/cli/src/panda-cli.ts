@@ -596,7 +596,7 @@ programCommand('all_mints')
       env,
       rpcUrl,
     );
-    const candyMachine = 'EpRFqiEBLKwYxqx2QMSJqSZsVRPN7bptQgkEAd3NgSMm';
+    const candyMachine = 'GynXUqzQE3PiBjVBfxzNt155emYNaX6DT6yQdYegQt8J';
     const metadataByCandyMachine = [
       ...(await getAccountsByCreatorAddress(
         candyMachine,
@@ -871,7 +871,7 @@ programCommand('close_all_accounts')
       env,
       rpcUrl,
     );
-    const candyMachine = 'EpRFqiEBLKwYxqx2QMSJqSZsVRPN7bptQgkEAd3NgSMm';
+    const candyMachine = 'GynXUqzQE3PiBjVBfxzNt155emYNaX6DT6yQdYegQt8J';
     const currentAgesText = fs.readFileSync('new_sets.json');
     const parsed = JSON.parse(currentAgesText.toString());
     const metadataByCandyMachine = [
